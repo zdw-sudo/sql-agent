@@ -120,7 +120,8 @@ py scripts/init_db.py
 py -m uvicorn app.main:app --reload --port 8000
 ```
 
-打开 Swagger 文档：**http://localhost:8000/docs**
+- Web 界面：**http://localhost:8000**
+- Swagger 文档：**http://localhost:8000/docs**
 
 > **VS Code 提示：** 用「文件 → 打开文件夹」打开 `sql-agent` 目录（不是父级 `project` 目录），终端会自动定位到正确路径。
 
