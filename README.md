@@ -68,7 +68,7 @@ flowchart LR
 ### 1. 克隆并进入项目
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sql-agent.git
+git clone https://github.com/zdw-sudo/sql-agent.git
 cd sql-agent
 ```
 
