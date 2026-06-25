@@ -193,7 +193,17 @@ curl http://localhost:8000/health
 
 ## Demo 截图
 
-将 Swagger 测试截图放到 `docs/screenshots/` 目录，README 会自动展示：
+将 Swagger 测试截图放到 `docs/screenshots/` 目录，README 会自动展示。
+
+**快捷生成（服务需已启动）：**
+
+```powershell
+$env:PYTHONPATH="."
+py scripts/generate_screenshots.py
+git add docs/screenshots/*.png
+git commit -m "docs: add demo screenshots"
+git push
+```
 
 | Swagger 问答界面 | ReAct 步骤 trace |
 |:---:|:---:|
